@@ -43,9 +43,9 @@ const questions = [
 ];
 
 function FlashCards() {
-  const [selectedId, setSelectedUd] = useState(null);
+  const [selectedId, setSelectedId] = useState(null);
   function handleClick(id) {
-    setSelectedUd(id !== selectedId ? id : null);
+    setSelectedId(id !== selectedId ? id : null);
   }
   return (
     <div className="flashcards">
